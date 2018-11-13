@@ -1,5 +1,13 @@
 # Lets make a terrible JS minifier: Part 2
 
+Part two of a fun little series on minifying some JavaScript
+
+####################
+Type:blog
+Tags:JavaScript,Automation
+Parent:2
+####################
+
 [Following on from part 1][pt1link], I am now going to show the next step in minification and then compare results from minified and non minified files.
 
 Now that we have minified variable names, lets look at removing some of the syntax we need to help understand the program by aren't actually necessary to make things work.

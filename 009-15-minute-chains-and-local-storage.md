@@ -1,5 +1,13 @@
 # 15 minute chains and local storage
 
+Test of the local storage API in modern browsers with habit building to boot
+
+####################
+Type:blog
+Tags:JavaScript,InfoVis
+####################
+
+
 As an exercise in learning some more JavaScript I decided to write a little goal progress monitor/tracker.
 
 The initial idea is pretty straight forward: a check box that shows you if you have checked off the task for today and also shows the past week (or whatever) below it, forming a continuous chain. The idea is to not break the chain (of days completed).

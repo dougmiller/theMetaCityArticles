@@ -1,5 +1,12 @@
 # Lets make a terrible Markdown extension pt1 - Background
 
+Part one of making a Python Markdown extension
+
+####################
+Tags:Markdown,Python
+Parent:12
+####################
+
 ##Other pages in this series
  - Pt. 1 Background (this page)
  - [Pt. 1.5 Build tools](/blog/lets-make-a-terrible-markdown-extension-pt1-5-build-and-deployment)

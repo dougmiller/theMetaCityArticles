@@ -1,5 +1,13 @@
 # Lets make a terrible JS minifier: Part 1
 
+Part one of a fun little series on minifying some JavaScript
+
+####################
+Type:blog
+Tags:JavaScript,Automation
+Parent:2
+####################
+
 Minifying JavaScript is a pretty handy thing to do: it reduces http requests, total download size and so makes peoples experience of your site better.
 So lets write a script to do some minifying for us.
 First we need some JS to minify: lets use he files running on this site. For this example we will be looking at what we can do to make the files small and how we can combine them to reduce http requests.

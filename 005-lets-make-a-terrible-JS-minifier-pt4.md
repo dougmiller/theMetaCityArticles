@@ -1,5 +1,13 @@
 # Lets make a terrible JS minifier: Part 4
 
+This is the fourth and final part of the minifier write up of a fun little series on minifying some JavaScript
+
+####################
+Type:blog
+Tags:JavaScript,Automation
+Parent:2
+####################
+
 This is the fourth and final part of the minifier write up. See [part one][pt1link], [part two][pt2link], [part three][pt3link] or [the lot in the archive][tmcarchive].
 
 It is important to look and the goal of a minifier and how it is produced as it highlights a lot of the processes that goes into software development. The main lesson to take away from this is that any project, process or program is subject to constraints and goals outside of the program itself and you need to be aware of and reflect upon them.

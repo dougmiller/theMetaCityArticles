@@ -1,5 +1,12 @@
 # Daylight savings time visualised
 
+What is Daylight Saving actually doing in Australia
+
+####################
+Type:blog
+Tags:InfoVis
+####################
+
 Every year on the first Sunday of October, the lower East and Southern states and territories of Australia observe Daylight Savings Time (DST). Every year the there is some debate about Queensland adopting the practice. Every year the same arguments get bandied out. Lets look at what DST actually looks like.
 
 This is the sunrise and sunset times plotted over about two years to a reasonable accuracy for my home town of Brisbane. Blue area is time with the sun has technical set but twilight may remain; orange is time at work (assuming one hour lunch so start at 8:30am). Interestingly the Summer (and Winter) Solstice does not fall on the day with the earliest and latest sunrise (and latest and earliest rise/set for Winter). You can see this in the image below as the rise and set patterns are not symmetrical. This is due to the elliptical orbit combined with the tilt of the planet. But that is off topic.

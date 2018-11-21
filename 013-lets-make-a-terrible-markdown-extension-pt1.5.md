@@ -6,14 +6,6 @@ Second part of making a Python Markdown extension
 Tags:Markdown,Python
 Parent:12
 ####################
-
-##Other pages in this series
- - [Pt. 1 Background](/blog/lets-make-a-terrible-markdown-extension-pt1-background) 
- - Pt. 1.5 Build tools (this page)
- - [P2. 2 Getting testing](/blog/lets-make-a-terrible-markdown-extension-pt2-getting-testing)
- - [Pt. 3 Getting coding](/blog/lets-make-a-terrible-markdown-extension-pt3-getting-coding)
- - [Pt. 4 Getting coding pt2](/blog/lets-make-a-terrible-markdown-extension-pt4-getting-coding-pt2)
-
 In this page:
 
 [TOC]

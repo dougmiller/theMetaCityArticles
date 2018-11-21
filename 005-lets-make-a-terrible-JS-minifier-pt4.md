@@ -8,7 +8,7 @@ Tags:JavaScript,Automation
 Parent:2
 ####################
 
-This is the fourth and final part of the minifier write up. See [part one][pt1link], [part two][pt2link], [part three][pt3link] or [the lot in the archive][tmcarchive].
+This is the fourth and final part of the minifier write up.
 
 It is important to look and the goal of a minifier and how it is produced as it highlights a lot of the processes that goes into software development. The main lesson to take away from this is that any project, process or program is subject to constraints and goals outside of the program itself and you need to be aware of and reflect upon them.
 
@@ -21,11 +21,5 @@ Which brings me back to my point. Any decision about how this works or goal you 
 The point here is there is no one right answer to this. There is however a finite number of hours in the day, wasted time on mis or unclear communication and potentailly lower hanging fruit to grasp for. Make sure you understand the bigger picture of how your project/system/whatever fits in and where your time is best spent.
 
 This concludes the write up on the minifier. You can see the [whole lot on the archive][tmcarchive].
-
-[pt1link]: /blog/lets-make-a-terrible-JS-minifier-pt1 "Lets make a terrible JS minifier: Part 1"
-
-[pt2link]: /blog/lets-make-a-terrible-JS-minifier-pt2 "Lets make a terrible JS minifier: Part 2"
-
-[pt3link]: /blog/lets-make-a-terrible-JS-minifier-pt3 "Lets make a terrible JS minifier: Part 3"
 
 [tmcarchive]: /blog/archive "theMetaCity archive"

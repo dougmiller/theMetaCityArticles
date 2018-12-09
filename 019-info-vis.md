@@ -1,4 +1,4 @@
-# Info
+# InfoVis and the digital world
 
 Exploring Information Visualisation in the digital space
 

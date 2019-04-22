@@ -1,22 +1,18 @@
-# It is OK that your site looks different in different browsers
-
-Your site already looks different. You will need to accept that.
-
-####################
-Type:blog
+Title: It is OK that your site looks different in different browsers
+Blurb: Your site already looks different. You will need to accept that.
 Tags:Web Design,Business
-####################
+
 You have all had the conversation with your client that goes something like this:
 
 INT. OFFICE - 4:55pm.
-WS developer at desk, back to camera, clearly packing up ready to leave to the week.
+Web developer at desk, back to camera, clearly packing up ready to leave to the week.
 Phone rings.
 
 D: "Afternoon, this is {{ Doug @ the MetaCity speaking }}"
 C: "Hi this is Client. We just noticed that the blue bar on the screen is two pixels lower on IE then it is on Chrome. We need this fixed ASAP before someone notices."
-d: Dies a little.
+D: Dies inside.
 
-Your site is going to look different in different browsers. You are going to have to accept that. Because it already does.
+Your site is going to look different in different browsers. You are going to have to accept that. Because it already does and always did.
 
 You need to assuage the client that this is OK. It is better for everyone.
 

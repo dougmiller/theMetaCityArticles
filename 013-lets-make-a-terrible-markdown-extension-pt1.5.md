@@ -1,11 +1,8 @@
-# Lets make a terrible Markdown extension pt1.5 - Build and deployment
-
-Second part of making a Python Markdown extension
-
-####################
+Title: Lets make a terrible Markdown extension pt1.5 - Build and deployment
+Blurb: Second part of making a Python Markdown extension
 Tags:Markdown,Python
 Parent:12
-####################
+
 In this page:
 
 [TOC]

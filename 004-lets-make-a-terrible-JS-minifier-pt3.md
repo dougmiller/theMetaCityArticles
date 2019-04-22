@@ -1,12 +1,7 @@
-# Lets make a terrible JS minifier: Part 3
-
-Part three and penultimate post of a fun little series on minifying some JavaScript
-
-####################
-Type:blog
-Tags:JavaScript,Automation
-Parent:2
-####################
+Title: Lets make a terrible JS minifier: Part 3
+Blurb: Part three and penultimate post of a fun little series on minifying some JavaScript
+Tags: JavaScript,Automation
+Parent: 2
 
 [Following on from part 2][pt2link], I'll show you how I integrate this in to development and deployment workflow for great good!
 

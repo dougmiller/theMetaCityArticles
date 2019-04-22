@@ -1,11 +1,7 @@
-# Code Swarm of the MetaCity 2006 - 2014
-
-Ten years of vis on theMetaCity git repository
-
-####################
-Type:blog
-Tags:InfoVis,git
-####################
+Title: Code Swarm of the MetaCity 2006 - 2014
+Blurb: Ten years of vis on theMetaCity git repository
+Type: blog
+Tags: InfoVis,git
 
 I started the MetaCity website as part of a University project nearly 10 years ago. It has come a long way in that time and I have learnt a lot along with it. This is the Code Swarm of the git history (migrated from SVN ~3 years ago). Thankfully I have the day dot as part of that history.
 

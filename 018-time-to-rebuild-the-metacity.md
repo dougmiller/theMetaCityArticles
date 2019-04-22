@@ -1,11 +1,7 @@
-# Time to rebuild the MetaCity
-
-the MetaCity backend is getting rebuilt. Here are some of the details.
-
-####################
+Title: Time to rebuild the MetaCity
+Blurb: the MetaCity backend is getting rebuilt. Here are some of the details.
 Type:blog
 Tags:theMetaCity
-####################
 
 ## TLDR: too annoying to maintain; modern frameworks add value
 

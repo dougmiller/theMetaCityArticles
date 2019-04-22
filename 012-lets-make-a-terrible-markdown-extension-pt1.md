@@ -1,11 +1,8 @@
-# Lets make a terrible Markdown extension pt1 - Background
+Title: Lets make a terrible Markdown extension pt1 - Background
+Blurb: Part one of making a Python Markdown extension
+Tags: Markdown,Python
+Parent: 12
 
-Part one of making a Python Markdown extension
-
-####################
-Tags:Markdown,Python
-Parent:12
-####################
 In this page:
 
 [TOC]

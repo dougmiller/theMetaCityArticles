@@ -1,12 +1,7 @@
-# Lets make a terrible JS minifier: Part 1
-
-Part one of a fun little series on minifying some JavaScript
-
-####################
-Type:blog
-Tags:JavaScript,Automation
-Parent:2
-####################
+Title: Lets make a terrible JS minifier: Part 1
+Blurb: Part one of a fun little series on minifying some JavaScript
+Tags: JavaScript,Automation
+Parent: 2
 
 Minifying JavaScript is a pretty handy thing to do: it reduces http requests, total download size and so makes peoples experience of your site better.
 So lets write a script to do some minifying for us.

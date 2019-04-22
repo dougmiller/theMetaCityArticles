@@ -1,11 +1,6 @@
-# Things to think about when implementing SSL/TLS on a public facing web server
-
-Testing out support for TLS 1.2
-
-####################
-Type:blog
+Title: Things to think about when implementing SSL/TLS on a public facing web server
+Blurb: Testing out support for TLS 1.2
 Tags:TLS
-####################
 
 ##TLDR: you can not have TLS 1.2 and a commercial CA ECDHE certificate yet if you want to have a public facing website.
 

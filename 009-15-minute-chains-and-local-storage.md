@@ -1,12 +1,6 @@
-# 15 minute chains and local storage
-
-Test of the local storage API in modern browsers with habit building to boot
-
-####################
-Type:blog
-Tags:JavaScript,InfoVis
-####################
-
+Title: 15 minute chains and local storage
+Blurb: Test of the local storage API in modern browsers with habit building to boot
+Tags: JavaScript,InfoVis
 
 As an exercise in learning some more JavaScript I decided to write a little goal progress monitor/tracker.
 

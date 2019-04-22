@@ -1,10 +1,6 @@
-# Writers write
-
-If you are going to do it, do it.
-
-####################
+Title: Writers write
+Blurb: If you are going to do it, do it.
 Tags:theMetaCity
-####################
 
 Writers write, photographers photograph, programmers program and runners run.
 

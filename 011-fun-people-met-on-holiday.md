@@ -1,10 +1,6 @@
-# This is a list of interesting people we met on our recent trip to Europe
-
-We met fun people on holiday. This is a list of some of them.
-
-####################
+Title: This is a list of interesting people we met on our recent trip to Europe
+Blurb: We met fun people on holiday. This is a list of some of them.
 Tags:Travel
-####################
 
 ## Brown Dog Lady
 We were in Verona, walking along the river on our way to see the Dom and the top of the mountain when we crossed paths with an elderly lady being followed by an old brown dog carrying it's own lead. Being a sucker for something that cute, we struck up a conversation with Brown Dog Lady. She had a wonderful knowledge of the city, with it's Roman origins and customs (riding down the centre of town through both gates, which had been moved once cars became common) and the effects of World War 2 that persist to this day.

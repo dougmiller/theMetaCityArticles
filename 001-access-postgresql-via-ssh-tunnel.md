@@ -1,11 +1,8 @@
-# Access PostgreSQL via SSH tunnel
+Title: Access PostgreSQL via SSH tunnel
+Blurb: How I access PostgreSQL when it only listens to the server it is running on.
+Type: blog
+Tags: PostgreSQL,SSH
 
-How I access PostgreSQL when it only listens to the server it is running on.
-
-####################
-Type:blog
-Tags:PostgreSQL,SSH
-####################
 As part of my security policy, PostgreSQL (psql) doesn't allow outside connections. While this provides a lesser attack surface area, it does make running queries much more convoluted. Typical work flow uses something like this:
 
 1. Write article, workshop entry, change in schema etc

@@ -1,11 +1,8 @@
-# Lets make a terrible Markdown extension pt4 - Getting coding pt2
+Title: Lets make a terrible Markdown extension pt4 - Getting coding pt2
+Blurb: Fifth and final part of making a Python Markdown extension
+Tags: Markdown,Python
+Parent: 12
 
-Fifth and final part of making a Python Markdown extension
-
-####################
-Tags:Markdown,Python
-Parent:12
-####################
 In this page:
 
 [TOC]

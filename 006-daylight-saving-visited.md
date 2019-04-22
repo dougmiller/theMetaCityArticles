@@ -1,11 +1,6 @@
-# Daylight savings time visualised
-
-What is Daylight Saving actually doing in Australia
-
-####################
-Type:blog
+Title: Daylight savings time visualised
+Blurb: What is Daylight Saving actually doing in Australia
 Tags:InfoVis
-####################
 
 Every year on the first Sunday of October, the lower East and Southern states and territories of Australia observe Daylight Savings Time (DST). Every year the there is some debate about Queensland adopting the practice. Every year the same arguments get bandied out. Lets look at what DST actually looks like.
 

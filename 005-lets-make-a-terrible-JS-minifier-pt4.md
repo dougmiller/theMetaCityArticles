@@ -1,12 +1,7 @@
-# Lets make a terrible JS minifier: Part 4
-
-This is the fourth and final part of the minifier write up of a fun little series on minifying some JavaScript
-
-####################
-Type:blog
-Tags:JavaScript,Automation
-Parent:2
-####################
+Title: Lets make a terrible JS minifier: Part 4
+Blurb: This is the fourth and final part of the minifier write up of a fun little series on minifying some JavaScript
+Tags: JavaScript,Automation
+Parent: 2
 
 This is the fourth and final part of the minifier write up.
 

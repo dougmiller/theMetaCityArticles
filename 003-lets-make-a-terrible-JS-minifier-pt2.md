@@ -1,12 +1,7 @@
-# Lets make a terrible JS minifier: Part 2
-
-Part two of a fun little series on minifying some JavaScript
-
-####################
-Type:blog
-Tags:JavaScript,Automation
-Parent:2
-####################
+Title: Lets make a terrible JS minifier: Part 2
+Blurb: Part two of a fun little series on minifying some JavaScript
+Tags: JavaScript,Automation
+Parent: 2
 
 [Following on from part 1][pt1link], I am now going to show the next step in minification and then compare results from minified and non minified files.
 

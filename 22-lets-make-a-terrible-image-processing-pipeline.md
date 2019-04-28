@@ -3,7 +3,7 @@ Blurb: With the advent of the `<picture>` tag and the general support of media-q
 Tags: Automation,Images
 
 It used to be since [way back in the day](http://1997.webhistory.org/www.lists/www-talk.1993q1/0182.html) that if you want to put an image on a page then you put the image on the page and users be dammed if it didn't work for their screen.
-While people had previously broached the topic of media-queries it took until the early 2000's to get an agreed up spec drafted and then more than another decade to have it formalised after enough browser by in happened.
+While people had previously broached the topic of media-queries it took until the early 2000's to get an agreed up spec drafted and then more than another decade to have it formalised after enough browser buy in happened.
 
 With the arrival of mobile and HTML5 the door opened again as people began to look at ways to combat Wirth's Law slowing down user experience's and download times.
 

@@ -224,7 +224,7 @@ house_700x508.webp
 house.png
 ```
 
-In the resizer there were three folders: 300x, 400y and 700x. Include the `flif` and the original land you have all the images you need to make the `<picture>` and `srcset` work.
+In the resizer there were three folders: 300x, 400y and 700x. Include the `flif` and the original you have all the images you need to make the `<picture>` and `srcset` work.
 
 ### Putting it all together
 Running these can be done like this (from a central/main script):

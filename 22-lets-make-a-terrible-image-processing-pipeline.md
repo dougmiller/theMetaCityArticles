@@ -242,5 +242,5 @@ renamer/run.sh &
 Done.
 
 <aside>
-The `<picture>` tag has one caveat that might be non obvious: while it will skip over file formats that it doesn't recognise, if the tag suggests a format that it does recognise but the file doesn't exist, then a 404 is returned for the whole image and the next format in the tag is not looked at, even if the file were to exist. Be aware.
+The `picture` tag has one caveat that might be non obvious: while it will skip over file formats that it doesn't recognise, if the tag suggests a format that it does recognise but the file doesn't exist, then a 404 is returned for the whole image and the next format in the tag is not looked at, even if the file were to exist. Be aware.
 </aside>

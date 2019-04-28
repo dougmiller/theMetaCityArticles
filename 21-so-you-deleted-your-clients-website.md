@@ -1,5 +1,7 @@
-Title: so you deleted your clients production website
+Title: So you deleted your clients production website
 Blurb: What to do if you accidentally delete your clients production website
+
+Step that might be helpful if you accidentally delete your clients production site.
 
 ## Step 1: Don't panic
 While scary and gut wrenching, panicking will only make the situation worse. The first thing is to take stock of what has happened. Has the site really truly been deleted or has something less nasty happened? Is there an immediate solution?

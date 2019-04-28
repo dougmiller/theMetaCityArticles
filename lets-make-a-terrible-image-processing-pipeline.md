@@ -2,13 +2,12 @@ Title: Lets make a terrible image processing pipeline
 Blurb: With the advent of the `<picture>` tag and the general support of media-queries, it is time to automate image production.
 Tags: Automation,Images
 
-It used to be since [way back in the day](http://1997.webhistory.org/www.lists/www-talk.1993q1/0182.html) that if you want to put an image on a page then you put the image on the page and users be dammed if it didnt work for their screen.
-
+It used to be since [way back in the day](http://1997.webhistory.org/www.lists/www-talk.1993q1/0182.html) that if you want to put an image on a page then you put the image on the page and users be dammed if it didn't work for their screen.
 While people had previously broached the topic of media-queries it took until the early 2000's to get an agreed up spec drafted and then more than another decade to have it formalised after enough browser by in happened.
 
-With the arival of mobile and HTML5 the door opened again as people began to look at ways to combat Wirth's Law slowing down user experience's and download times.
+With the arrival of mobile and HTML5 the door opened again as people began to look at ways to combat Wirth's Law slowing down user experience's and download times.
 
-Two things emerged out of this: the `<picture>` tag with media queries for different resolutions and newer, more effecient image formats. Combined, users only need to download the images at the resolution they will actually use and in the most effecient format they will use. Win, win.
+Two things that emerged out of this: the `<picture>` tag with media queries for different resolutions and newer, more efficient image formats. Combined, users only need to download the images at the resolution they will actually use and in the most efficient format they will use. Win, win.
 
 It is not all peaches and cream however as this:
 
@@ -40,19 +39,19 @@ So a bit more work needs to go into producing a page, the logistics of which are
 
 To make this as lazy and as efficient as possible, the solution should probably revolve around a pipeline that watches a folder, does the work and then spits it out in a known folder. No clicking, no selecting and image then pressing upload and then download a zip of the contents. No waiting till I am back online after stomping around offline for a few days.
 
-Local problens, local solutions.
+Local problems, local solutions.
 
 [This screams of `inotifywait`](https://linux.die.net/man/1/inotifywait).
 
 ## Second things second
-There are a few things that will need to happen in this pipeline: take in an image, convert it to the defined formats, resize it to fit the media queries, rename the files appropriatly and then put them somewhere.
+There are a few things that will need to happen in this pipeline: take in an image, convert it to the defined formats, resize it to fit the media queries, rename the files appropriately and then put them somewhere.
 
-This whole process could be one giant bash script but that sounds a nightware to write, debug and support. So taking a page out of the unix philosophy: one function, one folder.
+This whole process could be one giant bash script but that sounds a nightmare to write, debug and support. So taking a page out of the Unix philosophy: one function, one folder.
 
 The general approach is: have a folder for the function (`format`, `resize`, `rename` etc) which can watch for input (a file written or copied in), do the next step and then push the file out to the next function. KISS.
 
 ## `inotifywait`
-You can ask linux to watch and react to a pretty compehansive set of actions that might happen on a folder or file: running `inotifywait -m file` will output them as they come in (the '`-m`' is for `monitor` which is used as the program will stop after the first event otherwise.
+You can ask Linux to watch and react to a pretty comprehensive set of actions that might happen on a folder or file: running `inotifywait -m file` will output them as they come in (the '`-m`' is for `monitor` which is used as the program will stop after the first event otherwise.
 
 This will output all the events that happen to the file or folder that is monitored.
 
@@ -79,7 +78,7 @@ Desktop/drop/ CLOSE_NOWRITE,CLOSE,ISDIR
 Desktop/drop/ MOVED_FROM foo.png
 ```
 
-You can see that I copied the file `foo.png` into the folder (moved has a different event `MOVED_TO`), the system opend the file, copied the content in and then closed it. The system then accessed it a bit later and finally I moved the file out.
+You can see that I copied the file `foo.png` into the folder (moved has a different event `MOVED_TO`), the system opens the file, copied the content in and then closed it. The system then accessed it a bit later and finally I moved the file out.
 
 The output can be formatted thusly: `inotifywait --format <format>`
 
@@ -121,7 +120,7 @@ inotifywait -m <watched_folder> -q --format '%w%f' -e close_write,moved_to | \
     done
 ```
 
-As mentioned previously, we are woatchign for files both copied in and also moved in. Formatter is the next step in the process. The `cp` line takes the original file and copies it to the end of the process as an unmolested original, the dropped file then enteres into the foratting process.
+As mentioned previously, we are watching for files both copied in and also moved in. Formatter is the next step in the process. The `cp` line takes the original file and copies it to the end of the process as an unmolested original, the dropped file then enters into the formatting process.
 
 ### Formatter
 
@@ -142,7 +141,7 @@ There are several folders here that need to be looked at:
 converter_flif.sh  drop     finished     flif    webp
 converter_webp.sh  drop.sh  finished.sh  run.sh
 ```
-The drop and finished (and their `.sh` contemporaries) are just the entry and exit points to the step. The others are the ones that do the work. Each is a format that gets converted to. It is assumed that `jpg`s do not get converted to `png`s and vice-a-versa so no folder for them). While `webp` will consume most anythign you can throw at it, `flif` is not nearly so mature and will only do `png`'s (and other vector image types) at time of writing. `jpg`s will still end up in the folder but the conversion will fail and there will be no output.
+The drop and finished (and their `.sh` contemporaries) are just the entry and exit points to the step. The others are the ones that do the work. Each is a format that gets converted to. It is assumed that `jpg`s do not get converted to `png`s and vice-a-versa so no folder for them). While `webp` will consume most anything you can throw at it, `flif` is not nearly so mature and will only do `png`'s (and other vector image types) at time of writing. `jpg`s will still end up in the folder but the conversion will fail and there will be no output.
 
 ```bash
 # Relying on silently swallowing errors as to weather or not the conversion was a success
@@ -159,7 +158,7 @@ inotifywait -m flif -q --format '%f' -e close_write | \
     done
 ```
 
-Due to the ability for flif to onyl download the data needed to show well at the required size, this output goes directly to finished. The other(s) go to the `resize` step.
+Due to the ability for flif to only download the data needed to show well at the required size, this output goes directly to finished. The other(s) go to the `resize` step.
 
 <aside>You will see this pattern of watching a drop folder and coping it to a finished folder which moves it to the next folder a lot. It seems to work quite well.</aside>
 
@@ -225,7 +224,7 @@ house_700x508.webp
 house.png
 ```
 
-In the resizer there were three folders: 300x, 400y and 700x. Include the `flif` and the origian land you have all the images you need to make the `<picture>` and `srcset` work.
+In the resizer there were three folders: 300x, 400y and 700x. Include the `flif` and the original land you have all the images you need to make the `<picture>` and `srcset` work.
 
 ### Putting it all together
 Running these can be done like this (from a central/main script):
@@ -238,6 +237,10 @@ resizer/run.sh &
 renamer/run.sh &
 ```
 
-`${1}` and `${2}` are the command line arguments for drop folder to watch and output folder respectivly. Each child script has to be run as a background process for hte aforementioned reason of `inotifywait` blocking the process.
+`${1}` and `${2}` are the command line arguments for drop folder to watch and output folder respectively. Each child script has to be run as a background process for the aforementioned reason of `inotifywait` blocking the process.
 
 Done.
+
+<aside>
+The `<picture>` tag has one caveat that might be non obvious: while it will skip over file formats that it doesn't recognise, if the tag suggests a format that it does recognise but the file doesn't exist, then a 404 is returned for the whole image and the next format in the tag is not looked at, even if the file were to exist. Be aware.
+</aside>

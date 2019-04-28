@@ -17,7 +17,7 @@ Your (their) site is going to look different in different browsers. You are goin
 You need to assuage the client that this is OK. It is better for everyone.
 
 ## The dumbest part
-Your site already looks different. People have different resolution monitors, run windows at different dimensions, have all different devices (desktop, laptops, tablets, phones, watches, fucking fridges somehow), have different colour depths, run it through accessibility tools, the list goes on. Given that experience people have with site, do you really think that they are going to open your site in two different browsers, match dimensions of the windows and see the couple of pixels difference and close both windows and complain about it to everyone. It won't cost a sale.
+Your site already looks different and it always has. People have different resolution monitors, run windows at different dimensions, have all different devices (desktop, laptops, tablets, phones, watches, fucking fridges somehow), have different colour depths, run it through accessibility tools, the list goes on. Given that experience people have with site, do you really think that they are going to open your site in two different browsers, match dimensions of the windows and see the couple of pixels difference and close both windows and complain about it to everyone. It won't cost a sale.
 
 ## The obvious part
 If the site is completely broken on one browser than it obviously needs to be fixed. If they have paid for a feature then they get the feature. That is not what I am talking about here.

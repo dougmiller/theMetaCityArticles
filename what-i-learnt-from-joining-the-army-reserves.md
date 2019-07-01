@@ -3,7 +3,9 @@
 I joined the ADF as a reservist. This is a journal of some of my experiences.
 
 ## Part 1: Specifics
-N.B. the term 'game' in this article refers to one that attempts to simulate an experience as someone tasked with overcoming an opposition with something: ostensibly an FPS, RPG or simulator and not so much tetris.
+<aside>
+The term 'game' in this article refers to one that attempts to simulate an experience as someone tasked with overcoming an opposition with something: ostensibly an FPS, RPG or simulator and not so much tetris.
+<aside>
 
 ### Lesson: computer games prime you to approach problems in a bad way
 When going through aptitude and attitude testing you are presented with various problems that look to see your approach to solving them vis-à-vis communication, command, respect, etc. The idea is to present you with some situations that you might encounter and then see how your (náive) approach will serve to solve the problem, work in a team and communicate intentions.

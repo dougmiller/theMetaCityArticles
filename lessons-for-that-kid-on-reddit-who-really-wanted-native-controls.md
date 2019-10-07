@@ -35,7 +35,7 @@ My personal bug bear was inline/first-class citizenship of SVG that came with Fi
 
 Nothing changed.
 
-Previous to that I needed to either put them in via <code><object></code> tags or equivalent to have them show up. It was an annoying extra layer and hoop to jump though that took extra effort and tooling to solve. But solve it you do and move on to the next problem. And you do move on. That's the secret here, you deal with what you have in-font of you, make compromises, push back where you can and ultimately accept your fate. Getting angry and frustrated, while cathartic, doesn't help with the situation.
+Previous to that I needed to either put them in via <code><object><code> tags or equivalent to have them show up. It was an annoying extra layer and hoop to jump though that took extra effort and tooling to solve. But solve it you do and move on to the next problem. And you do move on. That's the secret here, you deal with what you have in-font of you, make compromises, push back where you can and ultimately accept your fate. Getting angry and frustrated, while cathartic, doesn't help with the situation.
 
 And it is Sysiphusian task as because as soon as you overcome one challenge the next rears it's ugly head. If you can manage to push long enough and hard enough, you can ship some pretty OK software maybe.
 

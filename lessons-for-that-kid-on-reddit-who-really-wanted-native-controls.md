@@ -1,6 +1,6 @@
 Title: A brief note to young players
 Blurb: A followup to a note I left to someone new to this game.
-Tags: Philosophy
+Tags: Philosophy,Programming
 
 A while ago I left this note to someone new to the world of development who was frustrated with the speed at which new features are added to web browsers.
 
@@ -25,15 +25,25 @@ Again, I know it is borne out of frustration but there is so much you can do to 
 
 <cite>– me</cite>
 
-While my original point still stands (be patient, dev is hard and expensive, help if you can) I regret not going further.
+While my original point still stands (be patient, dev is hard and expensive, help if you can) I feel there is a point not said.
 
-To which I would like to add: the perceived issues you are dealing with are sissiphean in nature. Having the solution in place for this issue wont magically solve all your problems it only kicks the can down the road. You will just run into the next problem and the next one after that and the one after that one too until the day you stop working.
+To which: the perceived issues you are dealing with are Sysiphusian in nature. Having the solution in place for this issue wont magically solve all your problems it only kicks the can down the road. You will just run into the next problem and the next one after that and the one after that one too until the day you stop working.
 
 I would argue that it is a sign of a maturing dev when they can accept this reality and work with it to produce software and solve problems rather than bemoan the situation and not move forward.
 
-My personal bug bear was inline/first-class citizenship of SVG that came with Firefox 4.0. What a glorious day that was when it shippep! We could have SVG everywhere and in everything,birds would sing and babies would be born. So I went about and made a lot of SVGs and put them in place.
+My personal bug bear was inline/first-class citizenship of SVG that came with Firefox 4.0. What a glorious day that was when it shipped! We could have SVG everywhere and in everything, birds would sing and babies would be born. So I went about and put SVGs directly in to pages.
 
 Nothing changed.
 
-Yes, my issue of not being able to have inline SVG was solved but that didn't change the 
+Previous to that I needed to either put them in via <code><object></code> tags or equivalent to have them show up. It was an annoying extra layer and hoop to jump though that took extra effort and tooling to solve. But solve it you do and move on to the next problem. And you do move on. That's the secret here, you deal with what you have in-font of you, make compromises, push back where you can and ultimately accept your fate. Getting angry and frustrated, while cathartic, doesn't help with the situation.
+
+And it is Sysiphusian task as because as soon as you overcome one challenge the next rears it's ugly head. If you can manage to push long enough and hard enough, you can ship some pretty OK software maybe.
+
+Back to the original poster: what would having the native controls then lead to? One less dependency in the page? While that is a nice ideal to have, the problem is solved enough that it is time to move on to the next issue.
+
+Which leads back to my next issue. Having <code>Wallclock</code> implemented for SVG would make a project I am working on so much easier and cleaner to implement but alas we are not getting it in 1.2 but maybe we are in 2 (maybe I should do it if I were to listen to my own advice).
+
+So back to the mountain...
+
+
 

@@ -21,7 +21,5 @@ Once the dust has settled after the site is backup send them an apology bottle o
 
 Failing all that: hope your indemnity insurance is paid up
 
-<aside>
-### Story time
+## Story time
 Thankfully I have never deleted a production site. This article was inspired by an event where someone else at the place I worked at at the time did so on a Friday morning while cleaning up old accounts on a shared hosting server. The usual process in this situation failed as the backups did not work (site was ~5 years old and the backups were incremental diffs which fell on their face when submitted for restoration). The site was down for ~30 hours before a copy of the Wayback Machine could be downloaded and put in place. The backups were eventually fixed and the site was restored after ~48 hours. The new policy is to suspend accounts for a year before deletion and also to have a copy of the account on a local (in the office) removable drive. Saved us a couple of time (and been profitable once when a client from a few years previous came back).
-</aside>

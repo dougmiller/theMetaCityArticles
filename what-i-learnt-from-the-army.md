@@ -1,4 +1,4 @@
-Title: What i learn't from initial army training
+Title: What i learn't from my time in the army
 Tags: discipline
 
 ## The army doesn't celebrate mediocrity
@@ -18,20 +18,22 @@ That is not to say you should treat it like a game but you should definitely acc
 
 The staff know it is a game too. They know they have a roll to play when they are yelling at you and when pushing you, getting you to so things that you might not normally do. Towards the end of training as things begin to relax somewhat they even call themselves on this, pointing out the cognitive dissonance everyone experiences when trying to process the whole experience.
 
-There is a this weird vibe where both the recruits and the staff know this and have a back and forth about it. The game continues to e played regardless.
+There is a this weird vibe where both the recruits and the staff know this and have a back and forth about it. The game continues to be played regardless.
 
 ## There is a way and that way is good
 Because of it's size, some aspects of training and development are steeped in arcane bureaucracy. Things are done because that is the way they are done. It should be noted that the soldiers executing the policy generally know that this policy/procedure is outmoded but have their hand forced. The PTIs for example, know that the exercises they are teaching and training for are at least 10 years behind their civilian counterparts but changes in pols/procs take a commensurate amount of time to filter down from review and control boards. Outside the realm of training, especially in operational theatre, the attitude of improvise, adapt and overcome takes over and the policies that are not helpful are quickly discarded.
 
 ## Final thoughts
-To do well at this is straight forward. Try. That is it. As one instructor pointed out, "It's the easiest job in the world, just shut up and do what you are told". Just like getting pitched for programming work, ideas are cheap; it is the work that takes the effort.# Lessons learnt from joining the Australian Defence Force
+To do well at this is straight forward. Try. That is it. As one instructor pointed out, "It's the easiest job in the world, just shut up and do what you are told". Just like getting pitched for programming work, ideas are cheap; it is the work that takes the effort.
+
+# Lessons learnt from joining the Australian Defence Force
 
 I joined the ADF as a reservist. This is a journal of some of my experiences.
 
 ## Part 1: Specifics
 <aside>
 The term 'game' in this article refers to one that attempts to simulate an experience as someone tasked with overcoming an opposition with something: ostensibly an FPS, RPG or simulator and not so much tetris.
-<aside>
+</aside>
 
 ### Lesson: computer games prime you to approach problems in a bad way
 When going through aptitude and attitude testing you are presented with various problems that look to see your approach to solving them vis-à-vis communication, command, respect, etc. The idea is to present you with some situations that you might encounter and then see how your (náive) approach will serve to solve the problem, work in a team and communicate and (in theory) execute intentions.

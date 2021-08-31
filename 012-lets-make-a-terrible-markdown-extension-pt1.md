@@ -1,5 +1,6 @@
-Title: Lets make a terrible Markdown extension pt1 - Background
-Blurb: Part one of making a Python Markdown extension
+Title: Let's make a terrible Markdown extension pt1 - Background
+URL: lets-make-a-terrible-markdown-extension-pt1-background
+Blurb: Part one of making a Python Markdown extension Where we talk about what we are going to try to build
 Tags: Markdown,Python
 Parent: 12
 
@@ -11,7 +12,7 @@ In this page:
 You can play along at home by [looking at the full source here](https://assets.themetacity.com/code/theMetaCityMarkdown) and [download a gzipped version here](https://assets.themetacity.com/code/theMetaCityMarkdown.tar.gz).
 
 ##Background
-Writing blog articles as vanilla HTML is no fun. To that end [Markdown](https://daringfireball.net/projects/markdown/) was created, which for the most part works well enough. Occasionally however there will be some markup that is not processed by the standard Markdown core and is bothersome to type by hand. Custom markup that would be handy to be processed automatically. Lets make some.
+Writing blog articles as vanilla HTML is no fun. To that end [Markdown](https://daringfireball.net/projects/markdown/) was created, which for the most part works well enough. Occasionally however there will be some markup that is not processed by the standard Markdown core and is bothersome to type by hand. Custom markup that would be handy to be processed automatically. Let's make some.
 
 There are many variants and parsers in most languages that will take your Markdown and process it into HTML. I am going to do this in Python which has a nice package called Markdown that can process said files.
 
@@ -40,13 +41,13 @@ The proposed solution would look like `<gifv baseFilename extension1,extension2,
 
 ## The result
 
-~~~{.html}
+~~~
 <gifv gifv-demo-doggos webm />
 ~~~
 
 becomes
 
-~~~{.html}
+~~~
 <video autoplay="true" class="gifv" controls="false" loop="true">
     <source src="//assets.themetacity.com/gifv/gifv-demo-doggos.webm" />
 </video
@@ -57,11 +58,11 @@ and puts a video in like this:
 <gifv gifv-demo-doggos webm />
 
 ## Assumptions
-This is block level tag. Doing this inline does'nt fit with the idea of how I want to use the tag.
+This is block level tag. Doing this inline doesn't fit with the idea of how I want to use the tag.
 
 Piggybacking on Imgur's marketing with the use of `gifv`.
 
-## Lets crack on
+## Let's crack on
 First stop is to [the docs](https://pythonhosted.org/Markdown/extensions/api.html). This is how we are going to define a new tag.
 
 [Step 1.5 is to set up](lets-make-a-terrible-markdown-extension-pt1-5-build-and-deployment) a deployment/build method, which, while optional is pretty handy.

@@ -1,5 +1,6 @@
-Title: Lets make a terrible Markdown extension pt2 - Getting testing
-Blurb: Third part of making a Python Markdown extension
+Title: Let's make a terrible Markdown extension pt2 - Getting testing
+URL: lets-make-a-terrible-markdown-extension-pt2-getting-testing
+Blurb: Second part of making a Python Markdown extension
 Tags:Markdown,Python
 Parent:12
 
@@ -8,10 +9,10 @@ In this page:
 [TOC]
 
 ##Lets test
-Testing can be helpful. So lets write some up.
+Testing can be helpful. So let's write some up.
 
 ##Assumptions
-While we havn't written any working code yet, we can setup working tests so that we can measure out progress as we fill out the class.
+While we haven't written any working code yet, we can set up working tests so that we can measure out progress as we fill out the class.
 
 The package is on the path somewhere (by running `python setup.py develop).
 
@@ -26,7 +27,7 @@ class GifV(Extension):
 
 ##TestGifV.py
 
-The test file itself is straightforward: call markdown with the extension registered and double check the output is as expected.
+The test file itself is straightforward: call markdown with the extension registered and double-check the output is as expected.
 
 No setup or teardown needed.
 

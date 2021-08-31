@@ -1,4 +1,5 @@
 Title: Lets make a terrible JS minifier: Part 4
+URL: lets-make-a-terrible-js-minifier-part-4
 Blurb: This is the fourth and final part of the minifier write up of a fun little series on minifying some JavaScript
 Tags: JavaScript,Automation
 Parent: 2
@@ -15,6 +16,6 @@ Which brings me back to my point. Any decision about how this works or goal you 
 
 The point here is there is no one right answer to this. There is however a finite number of hours in the day, wasted time on mis or unclear communication and potentailly lower hanging fruit to grasp for. Make sure you understand the bigger picture of how your project/system/whatever fits in and where your time is best spent.
 
-This concludes the write up on the minifier. You can see the [whole lot on the archive][tmcarchive].
+This concludes the write-up on the minifier. You can see the [whole lot on the archive][tmcarchive] or using the links at the start of the post.
 
 [tmcarchive]: /blog/archive "theMetaCity archive"

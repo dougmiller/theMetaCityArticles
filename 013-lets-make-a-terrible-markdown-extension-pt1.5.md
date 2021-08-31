@@ -1,5 +1,6 @@
-Title: Lets make a terrible Markdown extension pt1.5 - Build and deployment
-Blurb: Second part of making a Python Markdown extension
+Title: Let's make a terrible Markdown extension pt1.5 - Build and deployment
+Blurb: First and a half part of making a Python Markdown extension where we set up the files, installation, so we can get to work.
+URL: lets-make-a-terrible-markdown-extension-pt1-5-build-and-deployment
 Tags:Markdown,Python
 Parent:12
 
@@ -7,7 +8,7 @@ In this page:
 
 [TOC]
 
-Building and deploying extensions works well as a package. Here is how to do it in a reasonable way for the extension we are writing.
+Building and deploying extensions works well as a package. Here is how to do it reasonably for the extension we are writing.
 
 ##Assumptions
 You are using a `virtulenv` that is specific to this project. Amongst all the the usual parts it brings `pip` which we will use to do the actual deploying. While `virtualenv` is not needed but it does keep this process much easier to keep straight. How and where you setup `virtualenv` is left as an exercise to the reader. Unless there is a compelling reason mine are usually stored in a dedicated directory `~/.virtualenvs` so as not to pollute the build or working directory.
@@ -17,7 +18,8 @@ Oh, and unix.
 ##setup.py
 This is the config `pip` uses when building and deploying. Looks something like this:
 
-~~~~{.python}
+```
+:::python
 #!/usr/bin/env python
 
 from setuptools import setup
@@ -37,12 +39,12 @@ setup(
     long_description=open('./README.txt', 'r').read(),
     install_requires=['markdown']
 )
-~~~~
+```
 
 <aside>
-This is actaully a really good example of why it is advisable to use the `/usr/bin/env` construct. If you haven't see that before, the idea is that rather than hardcoding the path to the executable you want to run the script, you defer to the OS to tell you what the path to the executable is.
+This is actaully a really good example of why it is advisable to use the <code>!#/usr/bin/env</code> python construct. If you haven't see that before, the idea is that rather than hardcoding the path to the executable you want to run the script, you defer to the OS to tell you what the path to the executable is.
 
-This allows you to run the same script under many different environments (i.e. a system installation and a virtualenv installation).
+This allows you to run the same script under different environments (i.e., a system installation and a virtualenv installation).
 
 It is a handy way to remove one portability issue which costs nothing in implement.
 </aside>

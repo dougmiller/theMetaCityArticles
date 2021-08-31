@@ -1,4 +1,5 @@
 Title: Not reading the fucking manual leads to pain. Again.
+URL: not-reading-the-fucking-manual-leads-to-pain-again.
 Blurb: Did not read the manual and spent a few weeks writing code to handle file parsing that is totally unnecessary. Because I am an idiot. On the plus side, I get to delete code.
 Tags: Python,Markdown
 
@@ -20,18 +21,18 @@ Parent: id of series parent
 Article proper starts
 ```
 
-Problems arose immediately: does the first title line have a space or not? Is there always a blank line following that? Having to manually isolate the meta fields within the ```####################``` fenced blocks is dumb. Is there another blank line after that? Having to remember that this is the format and parse the file several times to make sure I have gotten it correct.
+Problems arose immediately: does the first title line have a space or not? Is there always a blank line following that? Having to manually isolate the meta fields within the ```####################``` fenced blocks is dumb. Is there another blank line after that? Having to remember that this is the format and parse the file several times to make sure I have done it correctly.
 
 Nonsense. Just nonsense.
 
-Imagine my surprise then, that when I was reading the documentation of the extensions library that someone else had run into this issue, written it as an extension and published it as part of the main library. Who would of thought? Apparently not me.
+Imagine my surprise then, that when I was reading the documentation of the extensions' library that someone else had run into this issue, written it as an extension and published it as part of the main library. Who would have thought? Apparently not me.
 
-Anyway, this transforms the code in two different ways: the files change to be in a much more palatable and stable format and the files can now be read directly from disk and dont require manually reading them in (also in the docs).
+Anyway, this transforms the code in two different ways: the files change to be in a much more palatable and stable format, and the files can now be read directly from disk and don't require manually reading them in (also in the docs).
 
 Goes from this:
 
 ```python
-''' Setup etc done previously above '''
+""" Setup etc done previously above """
 
 class Article:
     def __init__(self, file_object):
@@ -245,7 +246,7 @@ class File:
 
 In this section of that code:
 
-```python
+``` python
 with open(r'articles/' + filename) as file_contents:
     self.md = markdown.Markdown(
         extensions=[GifV(), 'meta', 'fenced_code', 'codehilite', 'toc']
@@ -253,4 +254,4 @@ with open(r'articles/' + filename) as file_contents:
     self.text = self.md.convert(file_contents.read())
 ```
 
-I need to open a file, read the content and now because there is no longer any custom parsing, convert straight away. md provides a method ```convertFile()``` that could take care of this step but it can only outout to standard out or to another file. I'll see about time to submit a patch for that.
+I need to open a file, read the content and now because there is no longer any custom parsing, convert straight away. md provides a method ```convertFile()``` that could take care of this step, but it can only outout to standard out or to another file. I'll see about time to submit a patch for that.

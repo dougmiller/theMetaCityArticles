@@ -1,4 +1,5 @@
 Title: Lets make a terrible JS minifier: Part 3
+URL: lets-make-a-terrible-js-minifier-part-3
 Blurb: Part three and penultimate post of a fun little series on minifying some JavaScript
 Tags: JavaScript,Automation
 Parent: 2

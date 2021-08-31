@@ -1,6 +1,7 @@
 Title: Pushing to multiple git repositories
+URL: pushing-to-multiple-git-repositories
 Tags: git
-Blurb: Avoiding single point of failure when pushing git to a single repo (github) by sending to multiple remotes at once.
+Blurb: Avoiding single point of failure when pushing git to a single repo (GitHub) by sending to multiple remotes at once.
 
 git is a distributed version control. Distributed. While you can have a single `master` remote it can be very handy to push changes to several remotes while onyl pulling from one. Here is how I do it.
 
@@ -18,7 +19,7 @@ Inside this there are several sections that are of interest. The following is a 
 
 Great stuff.
 
-Now lets add a remote to push changes to:
+Now let's add a remote to push changes to:
 
 `git remote add github git@github.com:dougmiller/theMetaCityArticles.git`
 
@@ -55,7 +56,7 @@ which unsurprisingly adds a second remote
 	fetch = +refs/heads/*:refs/remotes/tmc/*
 ```
 
-And see what git thinks about where it can push and pull to: `git remote -v`
+See what git thinks about where it can push and pull to: `git remote -v`
 
 ```
 github	git@github.com:dougmiller/theMetaCityArticles.git (fetch)
@@ -92,6 +93,6 @@ origin	doug@themetacity.com:theMetaCityArticles.git (push)
 origin	git@github.com:dougmiller/theMetaCityArticles.git (push)
 ```
 
-The `(fetch)` line is taken from the `url` setting while the two `(push)` lines are from the `pushurl` line. The astute amongst you will notice that the `(fetch)` line does not have to match any of the push urls (in effect: A does some work -> B pull in changes then pushes -> C & D). In the case of working on theMetaCity articles, the github repo is a public read only version used to gather feedback if people are interested.
+The `(fetch)` line is taken from the `url` setting while the two `(push)` lines are from the `pushurl` line. The astute amongst you will notice that the `(fetch)` line does not have to match any of the push urls (in effect: A does some work -> B pull in changes then pushes -> C & D). In the case of working on theMetaCity articles, the GitHub repo is a public read only version used to gather feedback if people are interested.
 
 Once you do a `push`, it works through the `pushurl`s in order, trying to send the changes and moving onto the next in the list on success or failure.

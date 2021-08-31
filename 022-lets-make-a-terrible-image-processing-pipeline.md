@@ -1,4 +1,5 @@
-Title: Lets make a terrible image processing pipeline
+Title: Let's make a terrible image processing pipeline
+URL: lets-make-a-terrible-image-processing-pipeline
 Blurb: With the advent of the `<picture>` tag and the general support of media-queries, it is time to automate image production.
 Tags: Automation,Images
 
@@ -51,7 +52,7 @@ This whole process could be one giant bash script but that sounds a nightmare to
 The general approach is: have a folder for the function (`format`, `resize`, `rename` etc) which can watch for input (a file written or copied in), do the next step and then push the file out to the next function. KISS.
 
 ## `inotifywait`
-You can ask Linux to watch and react to a pretty comprehensive set of actions that might happen on a folder or file: running `inotifywait -m file` will output them as they come in (the '`-m`' is for `monitor` which is used as the program will stop after the first event otherwise.
+You can ask Linux to watch and react to a pretty comprehensive set of actions that might happen on a folder or file: running `inotifywait -m file` will output them as they come in (the '`-m`' is for `monitor` which is used as the program will stop after the first event otherwise).
 
 This will output all the events that happen to the file or folder that is monitored.
 
@@ -141,7 +142,7 @@ There are several folders here that need to be looked at:
 converter_flif.sh  drop     finished     flif    webp
 converter_webp.sh  drop.sh  finished.sh  run.sh
 ```
-The drop and finished (and their `.sh` contemporaries) are just the entry and exit points to the step. The others are the ones that do the work. Each is a format that gets converted to. It is assumed that `jpg`s do not get converted to `png`s and vice-a-versa so no folder for them). While `webp` will consume most anything you can throw at it, `flif` is not nearly so mature and will only do `png`'s (and other vector image types) at time of writing. `jpg`s will still end up in the folder but the conversion will fail and there will be no output.
+The drop and finished (and their `.sh` contemporaries) are just the entry and exit points to the step. The others are the ones that do the work. Each is a format that gets converted to. It is assumed that `jpg`s do not get converted to `png`s and vice-a-versa (so no folder for them). While `webp` will consume most anything you can throw at it, `flif` is not nearly so mature and will only do `png`'s (and other vector image types) at time of writing. `jpg`s will still end up in the folder, but the conversion will fail and there will be no output.
 
 ```bash
 # Relying on silently swallowing errors as to weather or not the conversion was a success
@@ -209,7 +210,7 @@ inotifywait -m -q -r ${size_folders} --format '%w%f' -e close_write | \
 
 The `functions.sh` file has a function in it `file_type` that return the self reported `file` type.
 
-The interesting part here is that the file sizes converted to are dynamically calculated by the names of the folders supplied in both the x and y size. No cropping occurs and it will also attempt to resize bigger as it assumes you know what you are doing.
+The interesting part here is that the file sizes converted to are dynamically calculated by the names of the folders supplied in both the x and y size. No cropping occurs, and it will also attempt to resize bigger as it assumes you know what you are doing.
 
 ### Finished
 The final output end up like this:

@@ -1,4 +1,5 @@
 Title: InfoVis and the digital world
+URL: infovis-and-the-digital-world
 Blurb: Exploring Information Visualisation in the digital space
 Type: workshop
 Tags: InfoVis

@@ -1,7 +1,7 @@
 Title: How to have a successful design meeting
-Tags: Design, Business
-Date: 31/07/2021
+URL: how-to-have-a-successful-design-meeting
 Blurb: You have done some design work and it is now time to present it to the client. Here is how to survive and thrive.
+Tags: Design,Business
 
 You have done some design work and it is now time to present it to the client. Here is how to survive and thrive.
 
